@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <title>City</title>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <script src="js/vendor/three.min.js"></script>
+        <script src="js/vendor/stats.js"></script>
+
+        <script src="js/Torn/Torn.js"></script>
+
+        <script src="js/Torn/Entity.js"></script>
+        <script src="js/Torn/Line.js"></script>
+        <script src="js/Torn/Point.js"></script>
+        <script src="js/Torn/Grid.js"></script>
+        <script src="js/Torn/Cursor.js"></script>
+        <script src="js/Torn/Thing.js"></script>
+        <script src="js/Torn/Tiler.js"></script>
+
+        <!--script src="js/game/Cursor.js"></script>
+        <script src="js/game/City.js"></script>
+        <script src="js/game/Infrastructure.js"></script>
+        <script src="js/game/Entity.js"></script-->
+
+        <script src="js/Torn/controls/OrbitControls.js"></script>
+        <script src="js/Torn/helpers/Utilities.js"></script>
+
+        <script>
+            window.onload = function() {
+                Torn.init();
+            }
+        </script>
+    </head>
+    <body>
+        <div id="viewport">
+
+        </div>
+        <div id="options">
+            <h3>Editor</h3>
+            <hr>
+            <div id="tiler"></div>
+            <button class="btn btn-primary">Apply</button>
+        </div>
+    </body>
+</html>
